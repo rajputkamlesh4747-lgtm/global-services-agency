@@ -106,4 +106,91 @@ color:#07152d;
 .hero-buttons a:hover{
 transform:translateY(-5px);
 box-shadow:0 10px 25px rgba(0,200,255,.4);
-  }
+}
+
+section{
+padding:100px 8%;
+}
+
+section h2{
+font-size:42px;
+text-align:center;
+margin-bottom:50px;
+color:#00c8ff;
+}
+
+.about{
+background:#0b1d3a;
+text-align:center;
+}
+
+.about p{
+max-width:1000px;
+margin:auto;
+font-size:18px;
+line-height:1.9;
+}
+
+.services{
+background:#07152d;
+}
+
+.services .card{
+background:#10264a;
+padding:30px;
+border-radius:15px;
+margin-bottom:25px;
+transition:.3s;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.services .card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 25px rgba(0,200,255,.25);
+}
+
+.services h3{
+font-size:28px;
+margin-bottom:15px;
+color:#00c8ff;
+}
+
+.services p{
+margin-bottom:20px;
+}
+
+.services a{
+display:inline-block;
+padding:10px 20px;
+background:#00c8ff;
+color:#07152d;
+border-radius:30px;
+font-weight:600;
+}
+
+.portfolio{
+background:#0b1d3a;
+}
+
+.portfolio-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.portfolio-card{
+background:#10264a;
+padding:25px;
+border-radius:15px;
+transition:.3s;
+}
+
+.portfolio-card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 20px rgba(0,200,255,.3);
+}
+
+.portfolio-card h3{
+color:#00c8ff;
+margin-bottom:10px;
+}
