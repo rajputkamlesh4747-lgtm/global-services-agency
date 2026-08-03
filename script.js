@@ -39,3 +39,21 @@ header.style.background="rgba(0,0,0,.65)";
 });
 
 });
+
+const contactForm = document.getElementById("contact-form");
+
+contactForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.sendForm(
+        "service_rwy99wo",
+        "template_1syii18",
+        this
+    ).then(function() {
+        alert("Message Sent Successfully!");
+        contactForm.reset();
+    }, function(error) {
+        alert("Failed to Send Message");
+        console.log(error);
+    });
+});
