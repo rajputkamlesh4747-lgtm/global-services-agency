@@ -282,3 +282,72 @@ padding:25px;
 text-align:center;
 font-size:16px;
 }
+
+@media(max-width:900px){
+
+.header{
+flex-direction:column;
+padding:15px;
+}
+
+nav{
+margin-top:15px;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.hero-buttons{
+flex-direction:column;
+width:100%;
+align-items:center;
+}
+
+.hero-buttons a{
+width:240px;
+text-align:center;
+}
+
+section h2{
+font-size:34px;
+}
+
+.services .card,
+.portfolio-card,
+.pricing-card{
+width:100%;
+}
+
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+.card,
+.portfolio-card,
+.pricing-card{
+animation:fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+
+0%{
+opacity:0;
+transform:translateY(30px);
+}
+
+100%{
+opacity:1;
+transform:translateY(0);
+}
+
+}
