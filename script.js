@@ -46,7 +46,7 @@ contactForm.addEventListener("submit", function(e) {
     e.preventDefault();
 
     emailjs.sendForm(
-        "service_p8rc1r9",
+        "service_p8rclr9",
         "template_1syii18",
         this
     ).then(function() {
