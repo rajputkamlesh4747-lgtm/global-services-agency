@@ -1,5 +1,7 @@
 // Global Services Agency
 
+emailjs.init("zPNWGhk1FPV5MM7ct");
+
 document.addEventListener("DOMContentLoaded", function () {
 
 console.log("Website Loaded Successfully");
@@ -46,7 +48,7 @@ contactForm.addEventListener("submit", function(e) {
     e.preventDefault();
 
     emailjs.sendForm(
-        "service_rwy99wo",
+        "service_p8rc1r9",
         "template_1syii18",
         this
     ).then(function() {
