@@ -1,7 +1,5 @@
 // Global Services Agency
 
-emailjs.init("zPNWGhk1FPV5MM7ct");
-
 document.addEventListener("DOMContentLoaded", function () {
 
 console.log("Website Loaded Successfully");
